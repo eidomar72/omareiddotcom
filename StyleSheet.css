@@ -4,7 +4,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center
 }
-#announcement-bar {
+.ribbon{
   background-color: #E74C3C; /* alizarin */
   border: 0.1em solid #E74C3C;
   color: white;
