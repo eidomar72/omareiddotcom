@@ -4,11 +4,11 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center
 }
-#announcement-bar{
+#announcement-bar {
   background-color: #E74C3C; /* alizarin */
   border: 0.1em solid #E74C3C;
   color: white;
-  padding: 15px 70px;
+  padding: 10px 70px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
