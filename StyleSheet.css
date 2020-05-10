@@ -1,14 +1,15 @@
-#annoucement-bar .ribbon{
+#annoucement-bar {
   background-color: #e74c3c;
-  color: white;
-  margin-top: 0;
-  margin-bottom:0;
   padding: 20px 25px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
 }
-
+a.ribbon {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom:0;
+}
 body {
 background-image: url('omareiddotcom.jpg');
 background-repeat: no-repeat;
