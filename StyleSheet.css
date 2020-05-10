@@ -1,11 +1,6 @@
 div.ribbon{
-  background-color: #f44336;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: block;
   width: 100%;
-  height: 14px;
+  border: 1px solid #4caf50;
 }
 body {
 background-image: url('omareiddotcom.jpg');
