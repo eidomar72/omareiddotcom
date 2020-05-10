@@ -11,4 +11,6 @@ a.ribbon{
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-top: 0;
+  margin-bottom:0;
 }
