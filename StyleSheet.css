@@ -4,11 +4,11 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center
 }
-.ribbon{
+a.ribbon{
   background-color: #E74C3C; /* alizarin */
   border: 0.1em solid #E74C3C;
   color: white;
   text-align: center;
-  display: inline-block;
+  margin-top: 0;
   font-size: 16px;
 }
