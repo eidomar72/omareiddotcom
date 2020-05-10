@@ -6,9 +6,10 @@ background-position: center
 }
 a.ribbon{
   background-color: #E74C3C; /* alizarin */
-  border: NONE;
+  border: 0.1em;
   color: white;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 0;
   font-size: 16px;
 }
