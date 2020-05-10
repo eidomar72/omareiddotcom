@@ -1,8 +1,8 @@
-a.ribbon{
+div.ribbon{
   background-color: #f44336;
   color: white;
   padding: 10px 24px;
-  width: 200px;
+  width: 100%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
