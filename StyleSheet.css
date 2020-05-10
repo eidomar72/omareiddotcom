@@ -1,11 +1,9 @@
 a.ribbon{
+  background-color: #f44336;
   color: white;
+  padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  margin-top: 0;
-  margin-bottom:0;
-  background-color: #e74c3c;
-  padding: 20px 25px;
   display: inline-block;
 }
 body {
