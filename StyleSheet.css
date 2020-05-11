@@ -4,6 +4,8 @@ a.ribbon{
   background-color: #FF5733;
   display:inline-block;
   padding: inherit;
+  Margin-left: 0;
+  margin-right: 0;
 }
 body {
 background-image: url('omareiddotcom.jpg');
