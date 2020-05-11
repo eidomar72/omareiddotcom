@@ -1,10 +1,10 @@
 a.ribbon{
   width: 100%;
-  border: 1px solid #4caf50;
+  border: 2px solid #FF5733;
   background-color: #FF5733;
   display:inline-block;
   padding: inherit;
-  text-align: right;
+  text-align: center;
 }
 body {
 background-image: url('omareiddotcom.jpg');
