@@ -3,6 +3,7 @@ div.ribbon{
   border: 1px solid #4caf50;
   background-color: #FF5733;
   display:inline-block;
+  padding: inherit;
 }
 body {
 background-image: url('omareiddotcom.jpg');
