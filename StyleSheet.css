@@ -27,29 +27,6 @@ background-color: #ebf2fa;
   box-sizing: border-box;
 }
 
-.column {
-  float: left;
-  padding: 25px;
-}
-
-.left{
-  width: 25%;
-}
-
-.middle {
-  width: 50%;
-}
-
-.right {
-  width: 25%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-
 .overlay {
   height: 100%;
   width: 0;
