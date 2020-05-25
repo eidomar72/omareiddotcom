@@ -35,6 +35,7 @@ background-color: #ebf2fa;
 }
 
 .column {
+  margin-top: 100px;
   float: left;
   width: 33.33%;
 }
@@ -46,9 +47,6 @@ background-color: #ebf2fa;
 .middle {
   width: 33%;
   text-align: center;
-  font-family:"pragmatica-extended",sans-serif;
-  font-size: 250%;
-  color: #000000;
 }
 
 .overlay {
