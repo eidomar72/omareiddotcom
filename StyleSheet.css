@@ -7,11 +7,11 @@ a.ribbon{
   padding: inherit;
   text-align: center;
   font-family: "Lucida Console", Courier, monospace;
-  font-size: 150%;
+  font-size: 165%;
   font-weight: bold;
   text-decoration: none;
   color: #F5F5F5;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 body {
 background-image: url('omareiddotcom.jpg');
