@@ -27,6 +27,13 @@ background-color: #ebf2fa;
   box-sizing: border-box;
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .column {
   float: left;
   width: 33.33%;
@@ -42,13 +49,6 @@ background-color: #ebf2fa;
   font-family:"pragmatica-extended",sans-serif;
   font-size: 250%;
   color: #000000;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .overlay {
