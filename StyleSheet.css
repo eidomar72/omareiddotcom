@@ -1,4 +1,4 @@
-.ribbon{
+a.ribbon{
   wdith: 100%;
   height: 30px;
   background-color: #D1C6B9;
@@ -17,18 +17,4 @@ background-image: url('omareiddotcom.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center
-}
-
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
