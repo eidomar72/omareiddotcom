@@ -7,37 +7,35 @@
         <title>Omar A. Eid</title>
 
         <a href="#" class="ribbon">ANNOUCEMENT BAR</a>
-
-        <div id="mynav" class="overlay">
-
-          <!-- Button to close the overlay navigation -->
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-          <!-- Overlay content -->
-          <div class="overlay-content">
-            <a href="#">Menu1</a>
-            <a href="#">Menu2</a>
-            <a href="#">Menu3</a>
-            <a href="#">Menu4</a>
-          </div>
-
-        </div>
-
-        <!-- Use any element to open/show the overlay navigation menu -->
-        <span onclick="openNav()">open</span>
-        <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>
 </head>
 
 <body>
+  <div id="mynav" class="overlay">
 
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="#">Menu1</a>
+      <a href="#">Menu2</a>
+      <a href="#">Menu3</a>
+      <a href="#">Menu4</a>
+    </div>
+
+  </div>
+
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()">open</span>
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 </body>
 
 </html>
