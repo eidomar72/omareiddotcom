@@ -6,6 +6,8 @@ a.ribbon{
   display:inline-block;
   padding: inherit;
   text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 120%;
 }
 body {
 background-image: url('omareiddotcom.jpg');
