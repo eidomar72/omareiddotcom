@@ -34,20 +34,18 @@ background-color: #ebf2fa;
   clear: both;
 }
 
-.column {
-  margin-top: 80px;
-  float: left;
-  width:40%;
-}
-
 .left {
+  margin-top: 80px;
   width: 50%;
 }
 
 .right {
+  margin-top: 80px;
   width: 10%;
 }
+
 .middle {
+  margin-top: 80px;
   width: 40%;
 }
 
