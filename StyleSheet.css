@@ -37,16 +37,19 @@ background-color: #ebf2fa;
 .left {
   margin-top: 80px;
   width: 50%;
+  float: left;
 }
 
 .right {
   margin-top: 80px;
   width: 10%;
+  float: left;
 }
 
 .middle {
   margin-top: 80px;
   width: 40%;
+  float: left;
 }
 
 .overlay {
