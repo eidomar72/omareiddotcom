@@ -33,15 +33,15 @@ background-color: #ebf2fa;
 }
 
 .left{
-  width: 30%;
+  width: 25%;
 }
 
 .middle {
-  width: 40%;
+  width: 50%;
 }
 
 .right {
-  width: 10%;
+  width: 25%;
 }
 
 /* Clear floats after the columns */
