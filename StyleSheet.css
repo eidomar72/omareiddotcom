@@ -1,6 +1,7 @@
 a.ribbon{
   width: 100%;
-  border: 2px solid #FF5733;
+  height: 10px;
+  border: 2px solid #000000;
   background-color: #FF5733;
   display:inline-block;
   padding: inherit;
