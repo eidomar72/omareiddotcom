@@ -6,7 +6,7 @@ a.ribbon{
   display:inline-block;
   padding: inherit;
   text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
+  font-family:"pragmatica-extended",sans-serif;
   font-size: 165%;
   font-weight: bold;
   text-decoration: none;
@@ -47,7 +47,7 @@ background-color: #ebf2fa;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  font-style: "Lucida Console", Courier, monospace;
+  font-family:"pragmatica-extended",sans-serif
   letter-spacing: 1px;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
