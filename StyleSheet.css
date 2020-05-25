@@ -1,9 +1,6 @@
-a.ribbon{
-  width: 100%;
+.ribbon{
   height: 30px;
-  border: 2px solid #E2D5CA;
   background-color: #D1C6B9;
-  display:inline-block;
   padding: inherit;
   text-align: center;
   font-family: "Lucida Console", Courier, monospace;
@@ -11,7 +8,8 @@ a.ribbon{
   font-weight: bold;
   text-decoration: none;
   color: #F5F5F5;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  overflow: hidden;
 }
 body {
 background-image: url('omareiddotcom.jpg');
