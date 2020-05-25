@@ -27,12 +27,9 @@ background-color: #ebf2fa;
   box-sizing: border-box;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -41,6 +38,23 @@ background-color: #ebf2fa;
   display: table;
   clear: both;
 }
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 33%;
+}
+
+.middle {
+  width: 33%;
+  text-align: center;
+  font-family:"pragmatica-extended",sans-serif;
+  font-size: 250%;
+  color: #000000;
+}
+
 .overlay {
   height: 100%;
   width: 0;
