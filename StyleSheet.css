@@ -23,10 +23,6 @@ body {
 background-color: #ebf2fa;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .overlay {
   height: 100%;
   width: 0;
@@ -84,7 +80,7 @@ background-color: #ebf2fa;
   margin-right: 10%;
   Margin-left: 10%;
   Margin-top: 3%;
-  Margin-bottom: 0%;
+  Margin-bottom: 0%
 }
 
 #logo {
@@ -92,5 +88,5 @@ background-color: #ebf2fa;
   font-family:"pragmatica-extended",sans-serif;
   margin-left: 30%;
   font-size:250%;
-  margin-top: 3%;
+  margin-top: 3%
 }
