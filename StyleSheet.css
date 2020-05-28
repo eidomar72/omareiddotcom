@@ -38,6 +38,7 @@ background-color: #ebf2fa;
   background-color: rgba(205, 234, 192, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
+  display:inline;
 }
 
 .overlay-content {
@@ -83,5 +84,5 @@ background-color: #ebf2fa;
   margin-left: 750px;
   font-size:250%;
   margin-top: 50px;
-  
+
 }
