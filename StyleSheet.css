@@ -8,7 +8,7 @@
   height: 30px;
   border: 0px solid #f3722c;
   background-color: #f8961e;
-  display:inline-block;
+  display: inline-block;
   padding: inherit;
   text-align: center;
   font-family:"pragmatica-extended",sans-serif;
@@ -74,13 +74,13 @@ background-color: #ebf2fa;
   right: 35px;
   }
 
-#icon-menu {
+.icon-menu {
   font-size: 30px;
   cursor:pointer;
   margin-right: 10%;
   Margin-left: 10%;
   Margin-top: 3%;
-  Margin-bottom: 0%
+  Margin-bottom: 0%;
 }
 
 #logo {
