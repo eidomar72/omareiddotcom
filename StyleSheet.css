@@ -87,11 +87,10 @@ background-color: #ebf2fa;
   Margin-bottom: 0%;
 }
 
-.logo {
+#logo {
   color: #000000;
   font-family:"pragmatica-extended",sans-serif;
-  margin-left: 750px;
+  margin-left: 30%;
   font-size:250%;
-  margin-top: 50px;
-
+  margin-top: 3%;
 }
