@@ -27,7 +27,7 @@ background-color: #ebf2fa;
   box-sizing: border-box;
 }
 
-#myNav {
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;
@@ -38,18 +38,18 @@ background-color: #ebf2fa;
   background-color: rgba(205, 234, 192, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
-  display:inline
+  display:inline;
 }
 
-#myNav-content {
+.overlay-content {
   position: relative;
   top: 25%;
   width: 100%;
   text-align: center;
-  margin-top: 30px
+  margin-top: 30px;
 }
 
-#myNav a {
+.overlay a {
   padding: 8px;
   text-decoration: none;
   font-family:"pragmatica-extended",sans-serif;
@@ -59,11 +59,11 @@ background-color: #ebf2fa;
   transition: 0.3s;
 }
 
-#myNav a:hover, #myNav a:focus {
+.overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
 
-.myNav .closebtn {
+.overlay .closebtn {
   position: absolute;
   top: 20px;
   right: 45px;
@@ -71,8 +71,8 @@ background-color: #ebf2fa;
 }
 
 @media screen and (max-height: 450px) {
-  #myNav a {font-size: 20px}
-  #myNav .closebtn {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
