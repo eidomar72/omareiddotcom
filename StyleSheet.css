@@ -77,9 +77,11 @@ background-color: #ebf2fa;
   right: 35px;
   }
 
-.logo a {
-  font-size:70px;
+.logo {
   color: #000000;
   font-family:"pragmatica-extended",sans-serif;
-  text-align: center;
+  margin-left: 750px;
+  font-size:250%;
+  margin-top: 50px;
+  
 }
