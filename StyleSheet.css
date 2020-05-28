@@ -78,6 +78,11 @@ background-color: #ebf2fa;
   right: 35px;
   }
 
+.icon-menu {
+  font-size: 30px;
+  cursor: pointer;
+}
+
 .logo {
   color: #000000;
   font-family:"pragmatica-extended",sans-serif;
