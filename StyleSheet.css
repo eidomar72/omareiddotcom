@@ -78,9 +78,13 @@ background-color: #ebf2fa;
   right: 35px;
   }
 
-.icon-menu {
+#icon-menu {
   font-size: 30px;
-  cursor: pointer;
+  cursor:pointer;
+  margin-right: 10%;
+  Margin-left: 10%;
+  Margin-top: 3%;
+  Margin-bottom: 0%;
 }
 
 .logo {
