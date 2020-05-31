@@ -1,40 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+        <title>Omar A. Eid</title>
+<!-- meta tags -->
+  <meta name="description" content="personal website" />
+  <meta name="keywords" content="personal, website" />
+  <meta name="robots" content="nofollow" />
+  <meta http-equiv="author" content="Omar Eid" />
+
 </head>
 
 <body>
-<!-- Site Title_personal -->
-<title>Omar A. Eid</title>
-<!-- Announcement Bar Section -->
-<div class="websection" id="announcementbar">ANNOUCEMENT BAR</div>
-<!-- Navigation/Drop down Menu -->
-<div class="websection">
-  <div class="overlay" id="myNav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!-- ROW#1Announcement Bar -->
+<a href="#" class="ribbon">ANNOUCEMENT BAR</a>
+<!-- ROW#2COLUMN#1Navigation Menu -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
       </div>
-  </div>
-</div>
-<!-- Menu Button -->
-<span class="icon-menu" onclick="openNav()">&#9776;</span>
-<!-- Huge Menu Script -->
+    </div>
+<!-- ROW#2COLUMN#1Navigation Menu Script -->
     <script>
     function openNav() {
       document.getElementById("myNav").style.width = "100%";
     }
+
     function closeNav() {
       document.getElementById("myNav").style.width = "0%";
     }
     </script>
-<!-- Header Logo -->
-<div id="logo"> EIDO </div>
+<!-- ROW#2COLUMN#1Navigation Menu Icon -->
+<p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <a class="logo"  style="margin-left: 50px;font-size:250%;color:#000000;"> EIDO </a>
+</p>
+
 </body>
 
 </html>
