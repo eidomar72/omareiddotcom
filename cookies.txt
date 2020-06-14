@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.richardmille.com	TRUE	/	FALSE	1999999999	i18n_redirected	en
-
