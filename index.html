@@ -52,16 +52,25 @@
 <head>
 </head>
 <body>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-<marquee behaviour = "slide" direction = "Left">Omar A. Eid</marquee>
-</body>
+  <script>
 
-</html>
+let w = prompt("Width");
+let h = prompt("Height");
+let chessboard = "";
+
+for (let y = 0; y < w; y++) {
+  for (let x = 0; x < h; x++) {
+    if ((x + y) % 2 == 0) {
+      chessboard += " ";
+    } else {
+      chessboard += "#";
+    }
+  }
+  chessboard += "\n";
+}
+
+console.log(chessboard);
+
+  </script>
+</body>
+</HTML>
