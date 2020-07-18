@@ -23,15 +23,8 @@
 <!--Favicon-->
 	<link rel="icon" type="image/x-icon" href="../favicon.ico">
 <!--Fonts-->
-	<link rel="preload" href="../fonts/interstate/Interstate-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="../fonts/interstate/Interstate-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="../fonts/interstate/Interstate-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-	<link rel="preload" href="../fonts/icomoon9cea.ttf?qjwcxg" as="font" type="font/ttf" crossorigin="anonymous">
-	<link data-hid="alternate-hreflang-en" rel="alternate" href="the-brand.html" hreflang="en">
+
 <!--Social manager-->
-	<!--Need to add polyfill file into folder-->
-		<script src="../../cdn.polyfill.io/v2/polyfill.min3819.js?features=Object.entries">
-		</script>
 		<script src="../../www.googletagmanager.com/gtmf8cc.js?id=###&amp;l=dataLayer" async>
 		</script>
 		<script>
@@ -53,23 +46,6 @@
 </head>
 <body>
   <script>
-
-let w = prompt("Width");
-let h = prompt("Height");
-let chessboard = "";
-
-for (let y = 0; y < w; y++) {
-  for (let x = 0; x < h; x++) {
-    if ((x + y) % 2 == 0) {
-      chessboard += " ";
-    } else {
-      chessboard += "#";
-    }
-  }
-  chessboard += "\n";
-}
-
-document.write(chessboard);
 
   </script>
 </body>
