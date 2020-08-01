@@ -36,15 +36,13 @@
 		 ga('create', '###', 'auto');
 		 ga('send', 'pageview');
 		</script>
-<!--Preloading CSS and JS scripts-->
-	<link rel="preload" href="../###.js" as="script">
-	<link rel="preload" href="Stylesheet.css" as="style">
-<!--Load CSS files-->
-	<link rel="stylesheet" href="Stylesheet.css">
-
 <head>
-	<div id="time">
-		<script>
+	<!--Preloading CSS and JS scripts-->
+		<link rel="preload" href="../###.js" as="script">
+		<link rel="preload" href="Stylesheet.css" as="style">
+	<!--Load CSS files-->
+		<link rel="stylesheet" href="Stylesheet.css">
+	<script>
 		function startTime() {
 			var today = new Date();
 			var h = today.getHours();
@@ -60,8 +58,7 @@
 			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
 			return i;
 		}
-		</script>
-	</div>
+	</script>
 </head>
 <body onload="startTime()">
 <div id="txt"></div>
