@@ -38,10 +38,12 @@
 		</script>
 <head>
 	<!--Preloading CSS and JS scripts-->
-		<link rel="preload" href="../###.js" as="script">
-		<link rel="preload" href="Stylesheet.css" as="style">
+	<link rel="preload" href="../###.js" as="script">
+	<link rel="preload" href="Stylesheet.css" as="style">
 	<!--Load CSS files-->
-		<link rel="stylesheet" href="Stylesheet.css">
+	<link rel="stylesheet" href="Stylesheet.css">
+
+	<div id="timeonscreen">
 	<script>
 		function startTime() {
 			var today = new Date();
@@ -59,8 +61,9 @@
 			return i;
 		}
 	</script>
+</div>
 
-<p>Hello World</p>
+<p id="TEST">Hello World</p>
 
 </head>
 <body onload="startTime()">
