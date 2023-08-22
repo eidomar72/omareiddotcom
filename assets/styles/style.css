@@ -49,6 +49,9 @@ li {
 .dark-blue {
   color: #0f436d; /* action items */
 }
+.black {
+  color: black !important;
+}
 /* color palette */
 
 .flex {
@@ -61,6 +64,55 @@ li {
 
 .justify-center {
   justify-content: center;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs40 {
+  font-size: 40px;
+}
+
+.ffMerri-heavy {
+  font-family: "Merriweather heavy"
+}
+
+.blueish {
+  color: rgb(41, 151, 255);
+}
+
+.blueish-hover {
+  transition: 0.2s ease;
+}
+.blueish-hover:hover {
+  color: rgb(41, 151, 255) !important;
+}
+
+.blackish-hover {
+  transition: 0.2s ease;
+}
+.blackish-hover:hover {
+  color: black;
+}
+
+/* navbar */
+#navbar-main {
+  display: flex;
+  position: sticky;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  top: 0;
+  background-color: rgb(246, 246, 247, 0.7);
+  height: 70px;
+  backdrop-filter: blur(15px);
+}
+
+#nav-menu-items {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 20px;
 }
 
 #book-review-wrapper {
