@@ -8,7 +8,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #06bbee;
+  background-color: rgb(245, 245, 247);
   overflow-x: hidden;
 }
 footer {
@@ -104,7 +104,7 @@ li {
   align-items: center;
   justify-content: space-evenly;
   top: 0;
-  background-color: rgb(246, 246, 247, 0.7);
+  background-color: rgb(214, 214, 214, 0.7);
   height: 70px;
   backdrop-filter: blur(15px);
 }
