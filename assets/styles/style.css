@@ -213,3 +213,43 @@ li {
   align-self: center;
   border-radius: 25px;
 }
+
+.OAE-main {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: -15px;
+  margin: 0;
+  cursor: default;
+  user-select: none;
+  height: 35vw;
+}
+.OAE-main-text {
+  font-size: 35vw;
+  font-weight: bolder;
+  letter-spacing: -110px;
+}
+@media only screen and (max-width: 1260px) {
+  .OAE-main-text {
+    letter-spacing: -100px;
+  }
+}
+@media only screen and (max-width: 1055px) {
+  .OAE-main-text {
+    letter-spacing: -80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .OAE-main {
+    display: flex;
+    left: 0;
+    width: 100vw;
+    justify-content: center;
+    position: fixed;
+  }
+  .OAE-main-text {
+    font-size: 35vw;
+    font-weight: bolder;
+    letter-spacing: 0;
+  }
+}
