@@ -71,9 +71,15 @@
         <a class="fs20 ffMerri-heavy blueish blackish-hover" href="https://omareid.com/experiments.html">Experiments</a>
       </div-->
       <div class="menu-button-wrap">
-        <button class="menu-button-box" type="button" name="button">
-            <hr class="menu-button-line">
-        </button>
+        <div onclick="navButton(this)" class="menu-button-box" type="button" name="button">
+            <hr class="menu-button-line-a">
+            <hr class="menu-button-line-b">
+        </div>
+        <script>
+        function navButton(x) {
+          x.classList.toggle("Xclose");
+        }
+        </script>
       </div>
     </nav>
 

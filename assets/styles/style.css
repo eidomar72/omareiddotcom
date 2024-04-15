@@ -256,6 +256,7 @@ li {
   margin-right: 30px;
   margin-top: 20px;
   background-color: rgb(245, 245, 247);
+  z-index: 100;
 }
 .menu-button-box {
   display: flex;
@@ -271,10 +272,27 @@ li {
 .menu-button-box:hover {
   background-color: grey;
 }
-.menu-button-line {
-  margin:2px;
-  width: 100%;
+.menu-button-line-a {
+  position: absolute;
+  margin: 2px;
+  width: 60px;
   height: 5px;
   background-color: rgb(245, 245, 247);
   border: none;
+  transition: 0.2s;
+}
+.menu-button-line-b {
+  position: absolute;
+  margin: 2px;
+  width: 60px;
+  height: 5px;
+  background-color: rgb(245, 245, 247);
+  border: none;
+  transition: 0.2s;
+}
+.Xclose .menu-button-line-a {
+  transform: rotate(40deg);
+}
+.Xclose .menu-button-line-b {
+  transform: rotate(-40deg);
 }
