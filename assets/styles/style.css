@@ -322,17 +322,23 @@ li {
   border: none;
   transition: 0.2s;
 }
-.Xclose .menu-button-line-a {
-  transform: rotate(40deg);
-}
-.Xclose .menu-button-line-b {
-  transform: rotate(-40deg);
-}
-
 .dropdown-menu {
+  display: none;
   position: absolute;
   background-color: #F8DEDF;
   width: 100vw;
   height: 100%;
-  transition: 0.1s;
+}
+
+.menuOpen.dropdown-menu {
+  display: flex;
+  opacity: 100%;
+}
+
+.Xclose .menu-button-line-a {
+  transform: rotate(40deg);
+}
+
+.Xclose .menu-button-line-b {
+  transform: rotate(-40deg);
 }
