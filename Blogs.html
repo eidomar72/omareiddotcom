@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <!-- .metas -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Omar A Eid | OAE</title>
+
+  <meta name="description" content="Explore my personal portfolio website featuring my engineering experience, book reviews, blog articles, publications, stock market insights, and more." />
+  <meta name="keywords" content="engineering, portfolio, book reviews, blog articles, publications, stock market, personal website" />
+  <meta property="og:title" content="Omar Eid - Personal Portfolio" />
+  <meta property="og:description" content="Explore my personal portfolio website featuring my engineering experience, book reviews, blog articles, publications, stock market insights, and more." />
+  <meta property="og:image" content="https://omareid.com/assets/images/og-image.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://omareid.com/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Omar Eid's Portfolio" />
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "OmarEid",
+    "url": "https://omareid.com/",
+    "description": "Explore my personal portfolio website featuring my engineering experience, book reviews, blog articles, publications, stock market insights, and more.",
+    "image": ""
+  }
+  </script>
+  <!-- /.metas -->
+
+  <!-- .stylesheets -->
+  <link rel="stylesheet" href="assets\styles\style.css">
+  <link rel="stylesheet" href="assets\fonts\merriweather-cufonfonts-webfont\style.css">
+  <link rel='stylesheet' href='assets\fonts\styrene-a\styrene-a.css'>
+  <!-- /.stylesheets -->
+
+  <!-- .favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets\favicon\Wolff_white_background.png">
+  <!-- /.favicon -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8R5T1M6CP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8R5T1M6CP');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TQ69MHX3');</script>
+  <!-- End Google Tag Manager -->
+
+</head>
+  <body>
+    <div class="dropdown-menu">
+      <ul style="z-index: 100000 !important"  class="dropdown-menu-items">
+        <li><a class="menuItemHover" href="javascript:history.back()" style="color: black">BACK HOME</a></li>
+        <li><a class="menuItemHover" href="About.html" style="color: black">ABOUT</a></li>
+        <li><a class="menuItemHover" href="Market.html" style="color: black">STOCK MARTKET</a></li>
+        <li><a class="menuItemHover" href="Blogs.html" style="color: black">BLOGS</a></li>
+        <li><a class="menuItemHover" href="Books.html" style="color: black">BOOKS</a></li>
+        <li><a class="menuItemHover" href="Comics.html" style="color: black">COMICS</a></li>
+      </ul>
+      <a class="OAE-main-text-ddm">OAE</a>
+    </div>
+
+    <nav id="navbar-main">
+      <div class="menu-button-wrap">
+        <div onclick="navButton(this)" class="menu-button-box" type="button" name="button">
+          <hr class="menu-button-line-a">
+          <hr class="menu-button-line-b">
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      function navButton(x) {
+        x.classList.toggle("Xclose");
+        document.querySelector(".dropdown-menu").classList.toggle("menuOpen");
+      }
+    </script>
+
+
+  </body>
+</html>
