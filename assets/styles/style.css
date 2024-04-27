@@ -359,3 +359,15 @@ li {
 .opacity10 {
   opacity: 0.1;
 }
+
+.neuro-box{
+  height: 480px;
+  width: 250px;
+  background: #dde1e7;
+  border-radius: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  background: linear-gradient(150deg, #c3bbbb, #a49e9e);
+  box-shadow:  20px 20px 60px #9b9595,
+              -15px -10px 60px #d1c9c9;
+ }
