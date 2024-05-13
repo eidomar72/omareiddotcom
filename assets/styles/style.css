@@ -326,7 +326,7 @@ li {
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #F8DEDF;
+  background-color: #5DEBD7;
   width: 100vw;
   height: 100%;
   margin-top: -30px;
@@ -377,12 +377,22 @@ li {
    display: flex;
    height: 100px;
    width: 400px;
-   border: 1px solid black;
+   border: 2px solid black;
    transform: rotate(-90deg);
    vertical-align: bottom;
    margin-top: 50px;
+   transition: 0.4s;
+   background-color: white;
  }
+
+.menu-box:hover {
+  margin-top: 100px;
+}
+
 .menu-box-text {
   height: inherit;
   width: inherit;
+  color: black;
+  margin-left: 10px;
+  transition: 0.2s;
 }
